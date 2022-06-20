@@ -1,0 +1,35 @@
+.backgorund-color1{
+    background:linear-gradient(270deg, rgba(189,0,213,1) 0%, rgba(0,37,180,1) 100%);
+
+
+  }
+
+  .hr-cizgi{
+    width: 50%;
+    opacity: 60%;
+    height: 3px !important;
+    background: linear-gradient(270deg, rgba(189,0,213,1) 0%, rgba(0,37,180,1) 100%);
+  }
+
+  .fullscreen{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  @media (max-width: 768px) {
+    .fullscreen{
+      height: 800px;
+      padding-top: 0;
+    }
+  }
+
+
+.border-color1{
+    border: 2px solid #6012c5 ;
+}
+
+@media (min-width: 2000px) {
+    .big-page{
+        height: 14vh;
+    }
+}
